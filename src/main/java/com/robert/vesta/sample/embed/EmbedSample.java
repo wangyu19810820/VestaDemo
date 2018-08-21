@@ -15,5 +15,21 @@ public class EmbedSample {
         Id ido = idService.expId(id);
 
         System.out.println(id + ":" + ido);
+
+
+//        IdServiceFactoryBean fac = new IdServiceFactoryBean();
+//        fac.setProviderType(IdServiceFactoryBean.Type.PROPERTY);
+//        fac.setMachineId(1);
+//        fac.init();
+//        IdService idService = fac.getObject();
+//        long id = idService.genId();
+//        Id ido = idService.expId(id);
+//
+//        System.out.println(id + ":" + ido);
+//
+//        long id1 = idService.genId();
+//        Id ido1 = idService.expId(id);
+//
+//        System.out.println(id1 + ":" + ido1);
     }
 }
